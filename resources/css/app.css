@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ajouts personnalisés si besoin */
+
+@layer base {
+    body {
+        @apply bg-black text-white;
+    }
+}

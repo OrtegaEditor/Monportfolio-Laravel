@@ -32,3 +32,7 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+// git add .
+// git commit -m "Description claire de la modification"
+// git push

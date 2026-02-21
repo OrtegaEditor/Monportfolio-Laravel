@@ -286,7 +286,7 @@
                 <div class="group bg-black/60 rounded-2xl overflow-hidden border border-yellow-900/40 hover:border-yellow-500/60 transition-all duration-300 shadow-xl hover:shadow-yellow-900/30"
                     data-aos="fade-up" data-aos-delay="200">
                     <div class="relative h-56 md:h-64 bg-gray-900 overflow-hidden">
-                        <img src="/images/G_stock.png" alt="Application de gestion de stock - Django"
+                        <img src="/images/stock.png" alt="Application de gestion de stock - Django"
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                             onerror="this.src='https://via.placeholder.com/600x400/111/eee?text=Gestion+Stock';" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>

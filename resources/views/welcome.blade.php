@@ -7,7 +7,7 @@
     <title>Marcelin FOSSO - Portfolio</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <style>
         .skill-box {
@@ -349,7 +349,7 @@
                     data-aos="fade-up" data-aos-delay="600">
                     <!-- Image / zone visuelle -->
                     <div class="relative h-56 md:h-64 bg-gray-900 overflow-hidden">
-                        <img src="/images/kamerlink.jpg" alt="KamerLink - Application de services de proximité"
+                        <img src="/images/Kamerlink.jpg" alt="KamerLink - Application de services de proximité"
                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                             onerror="this.src='https://via.placeholder.com/600x400/111/eee?text=KamerLink';" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>

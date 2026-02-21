@@ -9,6 +9,13 @@ export default defineConfig({
                 'resources/js/app.js',
             ],
             refresh: true,
+            // ⚠️ Ajout pour la production :
+            buildDirectory: 'build', // dossier de sortie relatif à public/
         }),
     ],
+    build: {
+        manifest: true,
+        outDir: 'public/build', // Vite va générer manifest.json ici
+        emptyOutDir: true, // vide le dossier build à chaque build
+    },
 });

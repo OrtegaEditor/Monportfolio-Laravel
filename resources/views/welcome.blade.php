@@ -467,6 +467,112 @@
             once: true
         });
     </script>
+
+    <!-- Footer -->
+    <footer class="bg-black/80 border-t border-yellow-900/30 backdrop-blur-md mt-20 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 lg:gap-12">
+                <!-- Logo & Description -->
+                <div class="md:col-span-2" data-aos="fade-up">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div
+                            class="w-12 h-12 rounded-full bg-yellow-500 flex items-center justify-center text-black font-bold text-xl shadow-lg">
+                            MF
+                        </div>
+                        <span class="text-2xl font-bold text-yellow-400 tracking-tight">
+                            Marcelin FOSSO
+                        </span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-6 max-w-md">
+                        Développeur web passionné. Je transforme vos idées en applications modernes et performantes.
+                    </p>
+                </div>
+
+                <!-- Liens rapides -->
+                <div data-aos="fade-up" data-aos-delay="200">
+                    <h4 class="text-lg font-semibold text-yellow-400 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-link"></i>
+                        Liens rapides
+                    </h4>
+                    <ul class="space-y-3">
+                        <li><a href="#accueil"
+                                class="text-gray-300 hover:text-yellow-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-arrow-right w-4"></i> Accueil
+                            </a></li>
+                        <li><a href="#competences"
+                                class="text-gray-300 hover:text-yellow-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-arrow-right w-4"></i> Compétences
+                            </a></li>
+                        <li><a href="#projets"
+                                class="text-gray-300 hover:text-yellow-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-arrow-right w-4"></i> Projets
+                            </a></li>
+                        <li><a href="#contact"
+                                class="text-gray-300 hover:text-yellow-400 transition flex items-center gap-2">
+                                <i class="fa-solid fa-arrow-right w-4"></i> Contact
+                            </a></li>
+                    </ul>
+                </div>
+
+                <!-- Réseaux sociaux -->
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <h4 class="text-lg font-semibold text-yellow-400 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-share-nodes"></i>
+                        Réseaux
+                    </h4>
+                    <div class="flex flex-col gap-3">
+                        <a href="https://www.linkedin.com/in/marcelin-fosso-149b5b352" target="_blank"
+                            rel="noopener noreferrer"
+                            class="flex items-center gap-3 text-gray-300 hover:text-yellow-400 hover:bg-yellow-500/10 p-3 rounded-lg transition-all duration-300 group">
+                            <i class="fa-brands fa-linkedin-in text-xl"></i>
+                            <span>LinkedIn</span>
+                            <i
+                                class="fa-solid fa-arrow-up-right-from-square ml-auto opacity-0 group-hover:opacity-100 transition"></i>
+                        </a>
+                        <a href="https://github.com/OrtegaEditor" target="_blank" rel="noopener noreferrer"
+                            class="flex items-center gap-3 text-gray-300 hover:text-yellow-400 hover:bg-yellow-500/10 p-3 rounded-lg transition-all duration-300 group">
+                            <i class="fa-brands fa-github text-xl"></i>
+                            <span>GitHub</span>
+                            <i
+                                class="fa-solid fa-arrow-up-right-from-square ml-auto opacity-0 group-hover:opacity-100 transition"></i>
+                        </a>
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+                            class="flex items-center gap-3 text-gray-300 hover:text-yellow-400 hover:bg-yellow-500/10 p-3 rounded-lg transition-all duration-300 group">
+                            <i class="fa-brands fa-x-twitter text-xl"></i>
+                            <span>X (Twitter)</span>
+                            <i
+                                class="fa-solid fa-arrow-up-right-from-square ml-auto opacity-0 group-hover:opacity-100 transition"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ligne copyright -->
+            <div
+                class="border-t border-yellow-900/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                <p>
+                    © <span id="year"></span> Marcelin FOSSO.
+                    Tous droits réservés.
+                </p>
+                <div class="flex items-center gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-yellow-400 transition flex items-center gap-1">
+                        <i class="fa-solid fa-cookie-bite"></i>
+                        Cookies
+                    </a>
+                    <a href="#" class="hover:text-yellow-400 transition flex items-center gap-1">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        Confidentialité
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script pour l'année dynamique -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
 </body>
 
 </html>

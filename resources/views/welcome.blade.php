@@ -433,7 +433,7 @@
             data-aos-delay="200">Contact</h2>
         <p class="text-gray-300 text-center mb-8" data-aos="fade-up" data-aos-delay="400">Avez-vous un projet ? Une
             idée ? Laissez-moi un message</p>
-        <form action="{{ route('contact.store') }}" method="POST" class="space-y-6 max-w-2xl mx-auto">
+        <form action="http://127.0.0.1:8000/contact" method="POST" class="space-y-6 max-w-2xl mx-auto">
             @csrf
             <input type="text" name="name" placeholder="Votre nom"
                 class="w-full px-6 py-4 bg-black border border-yellow-500/40 rounded-xl text-white focus:outline-none focus:border-yellow-400 transition-all duration-300 focus:shadow-[0_0_15px_rgba(234,179,8,0.3)]"

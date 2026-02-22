@@ -15,21 +15,29 @@ use App\Http\Controllers\ContactController;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// // Route de contact publique (PAS de middleware auth !)
+// Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+// Route::middleware('auth')->group(function () {
+//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+// });
+// require __DIR__.'/auth.php';
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
 
-// Route de contact publique (PAS de middleware auth !)
+// Formulaire de contact public (POST)
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
-require __DIR__.'/auth.php';

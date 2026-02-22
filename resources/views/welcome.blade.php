@@ -163,7 +163,7 @@
                     <div
                         class="relative w-full h-full rounded-3xl bg-black/40 backdrop-blur-xl border border-yellow-500/30 shadow-[0_0_40px_rgba(234,179,8,0.25)] overflow-hidden">
                         <!-- Image -->
-                        <img src="/images/premiereImage.jpeg" alt="Marcelin FOSSO"
+                        <img src="/images/premiereImage.jpg" alt="Marcelin FOSSO"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                         <!-- Overlay gradient -->
                         <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
